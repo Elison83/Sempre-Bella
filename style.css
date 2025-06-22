@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0b7ca;
+  color: #333;
+}
+
+header {
+  background-color: #e91e63;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.banner {
+  background: url('https://source.unsplash.com/1200x400/?beauty,salon') no-repeat center center;
+  background-size: cover;
+  color: rgb(245, 82, 82);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.banner button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.servicos {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.servicos h2 {
+  margin-bottom: 20px;
+}
+
+.servicos ul {
+  list-style: none;
+}
+
+.servicos li {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #e91e63;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
